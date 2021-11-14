@@ -13,6 +13,8 @@ void onPlay()
 	initDifficulty();
 
 	common();
+	
+	std::cin.ignore();
 }
 
 void initDifficulty()
@@ -50,7 +52,7 @@ void initDifficulty()
 	}
 	else
 	{
-		std::cout << "Ce nombre n'a de difficulté" << std::endl;
+		std::cout << "Ce nombre n'a de difficultÃ©" << std::endl;
 	}
 }
 
